@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BP神经网络MNIST手写数字识别", "BP神经网络MNIST手写数字识别\BP神经网络MNIST手写数字识别.pyproj", "{D393A6C0-3C52-40C0-9D50-FAF1774A7F8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D393A6C0-3C52-40C0-9D50-FAF1774A7F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D393A6C0-3C52-40C0-9D50-FAF1774A7F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D0B74FA-A2F2-457E-9160-0B4332A29485}
+	EndGlobalSection
+EndGlobal

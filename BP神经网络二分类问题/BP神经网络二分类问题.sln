@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BP神经网络二分类问题", "BP神经网络二分类问题\BP神经网络二分类问题.pyproj", "{A678EA57-89CA-44AE-AC53-A53A77272C16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A678EA57-89CA-44AE-AC53-A53A77272C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A678EA57-89CA-44AE-AC53-A53A77272C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A757D06A-0A1F-4110-94E5-E439FF8566F6}
+	EndGlobalSection
+EndGlobal

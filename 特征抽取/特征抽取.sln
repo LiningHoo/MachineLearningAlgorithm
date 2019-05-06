@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "特征抽取", "特征抽取\特征抽取.pyproj", "{2BBCB525-BC49-4FD6-820E-6C44EE15D822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BBCB525-BC49-4FD6-820E-6C44EE15D822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBCB525-BC49-4FD6-820E-6C44EE15D822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E30C5216-B572-4954-A64B-499B64AB79DE}
+	EndGlobalSection
+EndGlobal

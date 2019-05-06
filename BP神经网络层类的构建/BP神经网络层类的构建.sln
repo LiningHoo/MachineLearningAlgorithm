@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BP神经网络层类的构建", "BP神经网络层类的构建\BP神经网络层类的构建.pyproj", "{230BC4EE-BCB7-43FD-8ADB-90B0CA08B449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230BC4EE-BCB7-43FD-8ADB-90B0CA08B449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230BC4EE-BCB7-43FD-8ADB-90B0CA08B449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7381C372-C45D-4CE6-8F35-88F4BFDB1213}
+	EndGlobalSection
+EndGlobal

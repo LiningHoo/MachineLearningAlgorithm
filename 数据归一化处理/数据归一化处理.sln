@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "数据归一化处理", "数据归一化处理\数据归一化处理.pyproj", "{502C69E2-E00F-4B7C-88B8-C0DD9F6FA27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502C69E2-E00F-4B7C-88B8-C0DD9F6FA27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502C69E2-E00F-4B7C-88B8-C0DD9F6FA27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E3B2837-3C2D-40E0-8BDF-C6CC13FA4750}
+	EndGlobalSection
+EndGlobal
