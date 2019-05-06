@@ -4,13 +4,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2586c5e3-4fe1-4517-a46b-53c34a2652b6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>尝试构造一维线性回归.py</StartupFile>
+    <StartupFile>一元线性回归.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>尝试构造一维线性回归</Name>
-    <RootNamespace>尝试构造一维线性回归</RootNamespace>
+    <Name>一元线性回归</Name>
+    <RootNamespace>一元线性回归</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="尝试构造一维线性回归.py" />
+    <Compile Include="一元线性回归.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

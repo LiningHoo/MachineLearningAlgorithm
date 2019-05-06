@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "尝试构造一维线性回归", "尝试构造一维线性回归\尝试构造一维线性回归.pyproj", "{2586C5E3-4FE1-4517-A46B-53C34A2652B6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "一元线性回归", "一元线性回归\一元线性回归.pyproj", "{2586C5E3-4FE1-4517-A46B-53C34A2652B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
