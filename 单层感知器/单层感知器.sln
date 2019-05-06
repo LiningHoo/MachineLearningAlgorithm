@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "单层感知器", "单层感知器\单层感知器.pyproj", "{A4522F06-6E43-4F45-8695-B59CE8F8A322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4522F06-6E43-4F45-8695-B59CE8F8A322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4522F06-6E43-4F45-8695-B59CE8F8A322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DAA261B-05B4-4FC4-BDC4-9E5FE023C4C7}
+	EndGlobalSection
+EndGlobal
