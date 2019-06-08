@@ -1,2 +1,2 @@
 # MachineLearningAlgorithm
-一些机器学习算法例程
+一些机器学习算法的Python实现
