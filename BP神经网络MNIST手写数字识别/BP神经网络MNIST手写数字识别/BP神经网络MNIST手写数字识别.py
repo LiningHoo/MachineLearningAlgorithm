@@ -1,7 +1,6 @@
-from sklearn.datasets import fetch_mldata
 import numpy as np
 import random
-from numba import jit 
+import datetime
 
 
 # 层类
@@ -19,19 +18,16 @@ class Layer():
         self.W = (np.random.random(size = (inputs,ouputs)) - 0.5) * 2
 
 # 激活函数
-@jit
 def activation_func(x):
     if (x >= 0).all():
         return 1 / (1 + np.exp(-x))
     else:
         return np.exp(x) / (1 + np.exp(x))
 # 激活函数的导数
-@jit
 def dactivation_func(x):
     return x * (1 - x)
 
 # 前向传播
-@jit
 def forward_propagation(layers):
     length = len(layers)
     layers[0].x = X
@@ -43,7 +39,6 @@ def forward_propagation(layers):
         layers[index].output = activation_func(layers[index].net)
 
 # 反向传播
-@jit
 def back_propagation(layers):
     length = len(layers)
     layers[length - 1].delta = (Y.T - layers[length - 1].output) * dactivation_func(layers[length - 1].output)
@@ -87,7 +82,6 @@ def save_Ws(Accuracy,layers):
 
 Accuracy = 0.0
 # 验证函数
-@jit
 def tester(layers,X_test,Y_test):
     global Accuracy
     global global_step
@@ -107,7 +101,9 @@ def tester(layers,X_test,Y_test):
             correct += 1
         index += 1
     if correct / layers[length - 1].output_test.shape[0] > Accuracy:
-        save_Ws(correct / layers[length - 1].output_test.shape[0],layers)
+        # save_Ws(correct / layers[length - 1].output_test.shape[0],layers)
+        np.save("w1.log",Input.W)
+        np.save("w2.log",Output.W)
         #print("Error: {0}".format(np.mean(np.abs(Output.output - Y.T))),end="   ")
         #print("Accuracy: {0}%".format(round(((correct / layers[length - 1].output_test.shape[0]) * 100),2)),end="   ")
         #print("global_step = {0}".format(global_step))
@@ -142,15 +138,15 @@ X_test_get = normalizing_0_to_1(X_test_get)
 Y_test_get = normalizing_0_to_1(Y_test_get)
 
 
-Input = Layer(785,100)
-Output = Layer(100,10)
+Input = Layer(785,20)
+Output = Layer(20,10)
 layers = [Input,Output]
 train_steps = 50000
-batch_size = 32
+batch_size = 16
 
 global_step = 0
 #学习率指数下降
-lr = 0.66
+lr = 0.51
 decay_step = 1e4
 decay_rate = 0.9999
 
@@ -164,7 +160,7 @@ while(1):
         forward_propagation(layers)
         back_propagation(layers)
         # tester(layers,X_get,Y_get)
-        if i % 1000 == 0:
+        if global_step % 100000 == 0:
             print("Error: {0}".format(np.mean(np.abs(Output.output - Y.T))),end="   ")
             tester(layers,X_get,Y_get)
         #if global_step % decay_step == 0 and global_step != 0:

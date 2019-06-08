@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DNN_test", "DNN_test\DNN_test.pyproj", "{0DF895C6-0BF1-4803-A79D-6A09028CA5CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF895C6-0BF1-4803-A79D-6A09028CA5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF895C6-0BF1-4803-A79D-6A09028CA5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9334B7D-0037-42D3-9CCD-96EC88045FE6}
+	EndGlobalSection
+EndGlobal
